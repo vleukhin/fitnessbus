@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЖИР0BUS</title>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .placeholder {
+            width: 100%;
+            height: 100%;
+            background-image: url('/images/1920.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center 0;
+        }
+
+        img {
+            display: none;
+            width: 100%;
+        }
+
+        @media (max-width: 640px) {
+            .placeholder {
+                background-image: url('/images/640.png');
+            }
+
+            img.w640 {
+                display: block !important;
+            }
+        }
+
+        @media (min-width: 641px) and (max-width: 1024px) {
+            .placeholder {
+                background-image: url('/images/1024.png');
+            }
+
+            img.w1024 {
+                display: block;
+            }
+        }
+
+        @media (min-width: 1025px) and (max-width: 1366px) {
+            .placeholder {
+                background-image: url('/images/1366.png');
+            }
+
+            img.w1366 {
+                display: block;
+            }
+        }
+
+        @media (min-width: 1367px) {
+            .placeholder {
+                background-image: url('/images/1366.png');
+            }
+
+            img.w1920 {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+<img src="images/1920.png" alt="" class="w1920">
+<img src="images/1366.png" alt="" class="w1366">
+<img src="images/1024.png" alt="" class="w1024">
+<img src="images/640.png" alt="" class="w640">
+<!--<div class="placeholder"></div>-->
+</body>
+</html>

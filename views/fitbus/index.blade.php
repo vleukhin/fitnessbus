@@ -6,6 +6,7 @@
 @section('content')
     <div class="fitbus-placeholder">
         <div class="fitbus-placeholder__header">
+            @include('fitbus.blocks.fitnessbus-logo')
             @include('fitbus.blocks.social')
         </div>
         <div class="fitbus-placeholder__content">

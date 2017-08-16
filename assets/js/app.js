@@ -2,8 +2,7 @@ import '../scss/app.scss';
 import 'font-awesome/scss/font-awesome.scss'
 import 'sweetalert/dist/sweetalert.css'
 
-require('sweetalert');
-
+window.$ = window.jQuery = require('jquery');
 window._ = require('lodash');
 
-window.$ = window.jQuery = require('jquery');
+window.sendEmail = require('./send-email');

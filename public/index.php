@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+//require_once __DIR__ . '/../vendor/autoload.php';
 
 if (!empty($_POST['email'])) {
     $file = __DIR__ . '/../storage/list.txt';

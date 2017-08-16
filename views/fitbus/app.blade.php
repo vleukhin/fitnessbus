@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="/build/app.bundle.css">
 </head>
 <body>
-<img src="images/1920.png" alt="" class="w1920">
-<img src="images/1366.png" alt="" class="w1366">
-<img src="images/1024.png" alt="" class="w1024">
-<img src="images/640.png" alt="" class="w640">
+<div class="page">
+    <div class="content">
+        @yield('content')
+    </div>
+</div>
 </body>
 </html>

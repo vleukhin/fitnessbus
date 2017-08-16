@@ -1,9 +1,11 @@
 @import "inc/vars";
 @import "inc/adaptive-mixins";
+@import "inc/mixins";
 @import "partials/title";
 @import "blocks/placeholder";
 @import "blocks/social";
 @import "blocks/logo";
+@import "blocks/contact";
 
 html, body {
   background: #000;

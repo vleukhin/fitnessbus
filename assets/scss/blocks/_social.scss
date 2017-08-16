@@ -1,6 +1,10 @@
 .fitbus-social {
   overflow: hidden;
 
+  &__link {
+    float: left;
+  }
+
   &__item {
     width: 28px;
     height: 28px;
@@ -9,7 +13,6 @@
     border-radius: 14px;
     text-align: center;
     line-height: 29px;
-    float: left;
     margin-right: 39px;
 
     &:hover {

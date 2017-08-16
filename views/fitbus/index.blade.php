@@ -9,12 +9,11 @@
             @include('fitbus.blocks.social')
         </div>
         <div class="fitbus-placeholder__content">
-            {{--<div>--}}
-                @include('fitbus.blocks.go2fit-logo')
-                <div class="fitbus-title">
-                    Представляет <br> Уникальный проект
-                </div>
-            {{--</div>--}}
+            @include('fitbus.blocks.go2fit-logo')
+            <div class="fitbus-title">
+                Представляет <br> Уникальный проект
+            </div>
+            @include('fitbus.blocks.contact')
         </div>
     </div>
 @endsection

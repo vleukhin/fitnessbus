@@ -3,11 +3,11 @@ require('sweetalert');
 module.exports = function (email) {
     if (validateEmail(email)) {
         $.post('/', {email: email}).done(function () {
-            swal('Отлично!', 'Теперь вы узнаете об этом первым', 'success')
+            swal('Спасибо!', 'Со дня на день мы раскроем интригу. Ждите письмо!', 'success')
         })
-            .fail(function () {
-                swal('Ошбика!', 'Неправильный email', 'error')
-            })
+        .fail(function () {
+            swal('Ошбика!', 'Неправильный email', 'error')
+        })
     }
     else {
         swal('Ошбика!', 'Неправильный email', 'error')

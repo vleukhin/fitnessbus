@@ -15,6 +15,10 @@ module.exports = {
                     fallback: 'style-loader',
                     use: ['css-loader', 'sass-loader']
                 })
+            },
+            {
+                test: /\.woff2?$|\.ttf$|\.eot$|\.svg$|\.png|\.jpe?g|\.gif$/,
+                loader: 'file-loader'
             }
         ]
     },

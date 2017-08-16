@@ -6,6 +6,8 @@
   "name": "fitnessbus",
   "version": "0.0.1",
   "dependencies": {
+    "file-loader": "^0.11.2",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
     "path": "^0.12.7",

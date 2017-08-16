@@ -1,0 +1,19 @@
+.fitbus-placeholder {
+  background-image: url('/images/1920.png');
+  padding: 28px;
+  &__header {
+    overflow: hidden;
+
+    .fitbus-social {
+      float: right;
+    }
+  }
+  &__content {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    .go2fit-logo {
+      margin: 15px auto;
+    }
+  }
+}

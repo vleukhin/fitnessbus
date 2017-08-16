@@ -4,7 +4,15 @@
 @extends('fitbus.app')
 
 @section('content')
-    <div class="placeholder">
-        @include('fitbus.blocks.social')
+    <div class="fitbus-placeholder">
+        <div class="fitbus-placeholder__header">
+            @include('fitbus.blocks.social')
+        </div>
+        <div class="fitbus-placeholder__content">
+            @include('fitbus.blocks.go2fit-logo')
+            <div class="fitbus-title">
+                Представляет <br> Уникальный проект
+            </div>
+        </div>
     </div>
 @endsection

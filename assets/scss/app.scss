@@ -1,0 +1,35 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: none;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  img.w640 {
+    display: block !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  img.w1024 {
+    display: block;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  img.w1366 {
+    display: block;
+  }
+}
+
+@media (min-width: 1367px) {
+  img.w1920 {
+    display: block;
+  }
+}

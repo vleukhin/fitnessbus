@@ -25,7 +25,8 @@ if (!empty($_POST['email'])) {
         <div class="content">
             <div class="fitbus-placeholder">
                 <div class="fitbus-placeholder__header">
-                    <div class="fitnessbus-logo"></div>            <div class="fitbus-social">
+                    <div class="fitnessbus-logo"></div>
+                    <div class="fitbus-social">
                         <a href="https://www.facebook.com/GO2fitMoscow" target="_blank" class="fitbus-social__link">
                             <div class="fitbus-social__item">
                                 <i class="fa fa-facebook"></i>
@@ -46,9 +47,14 @@ if (!empty($_POST['email'])) {
                                 <i class="fa fa-youtube"></i>
                             </div>
                         </a>
-                    </div>        </div>
+                    </div>
+                </div>
                 <div class="fitbus-placeholder__content">
-                    <div class="go2fit-logo"></div>            <div class="fitbus-title">
+                    <a href="https://www.go2fit.pro" target="_blank">
+                        <div class="go2fit-logo"></div>
+                    </a>
+
+                    <div class="fitbus-title">
                         Представляет <br> Уникальный проект
                     </div>
                     <div class="fitbus-contact">
@@ -59,10 +65,11 @@ if (!empty($_POST['email'])) {
                         <button class="fitbus-contact__button" onclick="sendEmail($('.fitbus-contact__input').val())">
                             <i class="fa fa-envelope"></i>
                         </button>
-                    </div>        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     </body>
     </html>
-<?}
+<? }

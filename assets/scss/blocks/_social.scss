@@ -1,0 +1,22 @@
+.fitbus-social {
+  overflow: hidden;
+
+  &__link {
+    float: left;
+  }
+
+  &__item {
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 29px;
+    margin-right: 39px;
+
+    &:hover {
+      background-color: $fitbus;
+    }
+  }
+}

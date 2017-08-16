@@ -1,0 +1,13 @@
+{
+    "name": "go2fit/fitnessbus",
+    "type": "project",
+    "require": {
+        "jenssegers/blade": "v1.1.0"
+    },
+    "authors": [
+        {
+            "name": "Viktor Leukhin",
+            "email": "vsleuhin@ya.ru"
+        }
+    ]
+}

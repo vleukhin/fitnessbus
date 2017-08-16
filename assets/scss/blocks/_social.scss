@@ -3,6 +3,11 @@
 
   &__link {
     float: left;
+    margin-right: 39px;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   &__item {
@@ -13,10 +18,10 @@
     border-radius: 14px;
     text-align: center;
     line-height: 29px;
-    margin-right: 39px;
 
     &:hover {
       background-color: $fitbus;
     }
+
   }
 }

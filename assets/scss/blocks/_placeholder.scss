@@ -2,9 +2,36 @@
   background-image: url('/images/1920.png');
   padding: 28px;
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 0;
+
+  @include tablet-mini {
+    padding: 15px;
+  }
+
+  @include phone {
+    padding: 8px;
+  }
 
   &__header {
     overflow: hidden;
+
+    @include phone {
+      text-align: center;
+
+      .fitnessbus-logo {
+        float: none !important;
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+
+      .fitbus-social {
+        float: none !important;
+        margin: 0 auto;
+        width: 230px;
+      }
+    }
 
     .fitnessbus-logo {
       float: left;

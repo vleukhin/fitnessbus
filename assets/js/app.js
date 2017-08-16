@@ -1,1 +1,3 @@
-alert('test');
+console.log('test');
+
+import '../scss/app.scss';

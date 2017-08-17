@@ -1,0 +1,55 @@
+.fitbus-screen-intro {
+  background-image: url('/images/screens/intro.png');
+  padding: 28px 320/1920*100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0;
+
+  @include phone {
+    padding: 8px;
+  }
+
+  &__header {
+    overflow: hidden;
+
+    @include phone {
+      text-align: center;
+
+      .fitnessbus-logo {
+        float: none !important;
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+
+      .fitbus-social {
+        float: none !important;
+        margin: 0 auto;
+        width: 230px;
+      }
+    }
+
+    .fitnessbus-logo {
+      float: left;
+    }
+
+    .fitbus-social {
+      float: right;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    margin: 15% auto 0;
+
+    @include phone {
+      margin-top: -65px;
+    }
+
+    .go2fit-logo {
+      margin: 15px auto;
+    }
+  }
+}

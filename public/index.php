@@ -9,5 +9,5 @@ if (!empty($_POST['email'])) {
     }
 } else {
     $blade = new \Jenssegers\Blade\Blade([__DIR__ . '/../views'], __DIR__ . '/../cache');
-    echo $blade->render('fitbus.index');
+    echo $blade->render('fitbus.landing');
 }

@@ -1,11 +1,21 @@
 @import "inc/vars";
 @import "inc/adaptive-mixins";
 @import "inc/mixins";
+/**
+ * Partials
+ */
 @import "partials/title";
-@import "blocks/placeholder";
+/**
+ * Blocks
+ */
 @import "blocks/social";
 @import "blocks/logo";
 @import "blocks/contact";
+/**
+ * Screens
+ */
+@import "screens/intro";
+@import "screens/placeholder";
 
 html, body {
   background: #000;

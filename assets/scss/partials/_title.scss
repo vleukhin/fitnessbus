@@ -2,10 +2,11 @@
   font-family: Phenomena, serif;
   color: $fitbus;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 50px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
+  letter-spacing: 3px;
 
   @include tablet-mini{
     font-size: 35px;

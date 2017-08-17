@@ -6,8 +6,14 @@
   background-position: center 0;
   position: relative;
 
+  @include tablet-mini{
+    padding: 28px 50/1920*100%;
+  }
+
   @include phone {
     padding: 8px;
+    background-image: url('/images/screens/intro_mobile.png');
+    background-size: cover;
   }
 
   &__header {
@@ -24,7 +30,7 @@
 
       .fitbus-social {
         float: none !important;
-        margin: 0 auto;
+        margin: 15px auto 0;
         width: 230px;
       }
     }
@@ -43,8 +49,8 @@
     text-align: center;
     margin: 190px auto 0;
 
-    @include phone {
-      margin-top: -65px;
+    @include tablet-mini {
+      margin-top: 100px;
     }
 
     .go2fit-logo {
@@ -64,6 +70,11 @@
     background-image: url('/images/bus.png');
     position: absolute;
     bottom: 50px;
-    left: 50%;
+    left: 49%;
+
+    @include phone {
+      bottom: 20px;
+      left: 47%;
+    }
   }
 }

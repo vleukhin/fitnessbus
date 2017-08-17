@@ -6,9 +6,17 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 
-  @include tablet-mini{
+  &_dark {
+    color: #000;
+  }
+
+  &_uncap {
+    text-transform: none;
+  }
+
+  @include tablet-mini {
     font-size: 35px;
   }
 }

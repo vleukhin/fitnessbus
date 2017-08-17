@@ -1,0 +1,16 @@
+.fitbus-text {
+  font-family: Roboto, serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+
+  &_bigger {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  &_dark {
+    color: #000;
+  }
+}

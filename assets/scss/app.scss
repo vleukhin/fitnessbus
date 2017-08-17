@@ -15,11 +15,13 @@
 @import "blocks/logo";
 @import "blocks/contact";
 @import "blocks/logos";
+@import "blocks/coach";
 /**
  * Screens
  */
 @import "screens/intro";
 @import "screens/placeholder";
+@import "screens/trainers";
 
 html, body {
   background: #000;

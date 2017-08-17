@@ -1,0 +1,11 @@
+.fitbus-screen-trainers {
+  &__coaches {
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0 30px;
+    .fitbus-coach {
+      display: inline-block;
+      margin-right: 90px;
+    }
+  }
+}

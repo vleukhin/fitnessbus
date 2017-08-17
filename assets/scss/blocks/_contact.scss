@@ -47,6 +47,7 @@
     outline: none;
     float: left;
     border-radius: 0;
+    height: 16px;
 
     @include placeholder {
       color: #fff;
@@ -71,12 +72,7 @@
     color: #fff;
     outline: none;
     position: absolute;
-    top: 5px;
-    right: 28px;
-
-    @include tablet-mini {
-      float: none;
-      margin-left: -66px;
-    }
+    right: 20px;
+    height: 51px;
   }
 }

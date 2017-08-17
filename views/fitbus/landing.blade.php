@@ -17,4 +17,8 @@
         Всего три летних дня, 23, 24 и 25 августа автобус, сжигающий калории, проедет по центральным улицам города и совершит главный фит-стоп
         на ВДНХ, у Павильона № 75, на форуме «Москвичам – здоровый образ жизни»
     </div>
+
+    <a href="http://go2fit.pro" class="fitbus-btn">онлайн трансляция &nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+    <a href="http://go2fit.pro" class="fitbus-btn">На сайт Go2Fit &nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+    <a href="mailto:info@go2fit.pro" class="fitbus-btn fitbus-btn_spacing">E-mail &nbsp;&nbsp;&nbsp;<i class="fa fa-envelope"></i></a>
 @endsection

@@ -1,6 +1,5 @@
 .fitbus-contact {
   overflow: hidden;
-  position: relative;
 
   @include tablet-mini {
     text-align: center;
@@ -19,6 +18,17 @@
       text-align: center;
       width: 100%;
       display: inline-block;
+    }
+  }
+
+  &__contact{
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+
+    @include tablet-mini {
+      margin: 0 auto;
+      width: 380px;
     }
   }
 

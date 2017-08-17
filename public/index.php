@@ -61,10 +61,13 @@ if (!empty($_POST['email'])) {
                         <div class="fitbus-contact__info">
                             Хочешь быть в курсе новостей?
                         </div>
-                        <input class="fitbus-contact__input" placeholder="E-mail">
-                        <button class="fitbus-contact__button" onclick="sendEmail($('.fitbus-contact__input').val())">
-                            <i class="fa fa-envelope"></i>
-                        </button>
+                        <div class="fitbus-contact__contact">
+                            <input class="fitbus-contact__input" placeholder="E-mail">
+                            <button class="fitbus-contact__button" onclick="sendEmail($('.fitbus-contact__input').val())">
+                                <i class="fa fa-envelope"></i>
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>

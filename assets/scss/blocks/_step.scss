@@ -1,21 +1,19 @@
 .fitbus-step {
   $block: &;
 
-  width: 320px;
-
-  &_vdnh{
+  &_vdnh {
     #{$block}__icon {
       width: 73px;
     }
   }
 
-  &_present{
+  &_present {
     #{$block}__icon {
       width: 70px;
     }
   }
 
-  &__icon{
+  &__icon {
     position: relative;
     width: 80px;
     margin: 0 auto;

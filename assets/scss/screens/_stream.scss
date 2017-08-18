@@ -1,0 +1,36 @@
+.fitbus-screen-stream {
+  background-image: url('/images/screens/stream.png');
+  background-position: center 0;
+  padding: 285px 0 205px;
+
+  @include tablet-mini {
+    background-size: cover;
+    background-image: url('/images/screens/stream_mobile.png');
+    padding: 50px 10px;
+  }
+
+  .fitbus-title {
+    margin-bottom: 25px;
+  }
+
+  .fitbus-text {
+    width: 100%;
+    max-width: 590px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+
+  .fitbus-btn {
+    margin: 0 auto;
+    display: block;
+  }
+
+  &__date {
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #e2e2e2;
+    margin-top: 40px;
+  }
+}

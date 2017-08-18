@@ -1,0 +1,46 @@
+.fitbus-step {
+  $block: &;
+
+  width: 320px;
+
+  &_vdnh{
+    #{$block}__icon {
+      width: 73px;
+    }
+  }
+
+  &_present{
+    #{$block}__icon {
+      width: 70px;
+    }
+  }
+
+  &__icon{
+    position: relative;
+    width: 80px;
+    margin: 0 auto;
+  }
+
+  &__circle {
+    background-color: $fitbus;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+
+  &__image {
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+
+  &__title {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: #212121;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+  }
+}

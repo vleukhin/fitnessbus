@@ -17,12 +17,14 @@
 @import "blocks/contact";
 @import "blocks/logos";
 @import "blocks/coach";
+@import "blocks/step";
 /**
  * Screens
  */
 @import "screens/intro";
 @import "screens/placeholder";
 @import "screens/trainers";
+@import "screens/steps";
 
 html, body {
   background: #000;

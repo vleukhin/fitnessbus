@@ -36,6 +36,14 @@ html, body {
 
 // Custom fonts
 @font-face {
+  font-family: 'GloberBlack';
+  src: url('/fonts/glober_black-webfont.woff2') format('woff2'),
+  url('/fonts/glober_black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Phenomena';
   src: url('/fonts/phenomena-bold-webfont.woff2') format('woff2'),
   url('/fonts/phenomena-bold-webfont.woff') format('woff'),

@@ -7,7 +7,7 @@
         или не можешь попасть в ЖИРОБАС, следи за онлайн-трансляцией с места
         событий на канале «ЖИВИ!»t
     </div>
-    <a href="https://www.jv.ru/vdnh" class="fitbus-btn">онлайн трансляция &nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i></a>
+    <a href="https://www.jv.ru/vdnh" class="fitbus-btn" target="_blank">онлайн трансляция &nbsp;&nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i></a>
     <div class="fitbus-screen-stream__date">
         трансляция будет идти 23, 24 и 25 августа 2017 года
     </div>

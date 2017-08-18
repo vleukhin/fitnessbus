@@ -1,6 +1,5 @@
 .fitbus-contact {
   overflow: hidden;
-  position: relative;
 
   @include tablet-mini {
     text-align: center;
@@ -22,6 +21,21 @@
     }
   }
 
+  &__contact{
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+
+    @include tablet-mini {
+      margin: 0 auto;
+      width: 380px;
+    }
+
+    @include phone{
+      width: 320px;
+    }
+  }
+
   &__input {
     border: 1px solid $fitbus;
     padding: 16px 22px;
@@ -33,6 +47,7 @@
     outline: none;
     float: left;
     border-radius: 0;
+    height: 16px;
 
     @include placeholder {
       color: #fff;
@@ -57,12 +72,7 @@
     color: #fff;
     outline: none;
     position: absolute;
-    top: 5px;
-    right: 28px;
-
-    @include tablet-mini {
-      float: none;
-      margin-left: -66px;
-    }
+    right: 20px;
+    height: 51px;
   }
 }

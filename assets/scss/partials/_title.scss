@@ -1,13 +1,25 @@
 .fitbus-title {
-  font-family: Phenomena, serif;
+  font-family: GloberBlack, Phenomena, sans-serif;
   color: $fitbus;
-  font-weight: 800;
   font-size: 48px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
+  letter-spacing: 3px;
 
-  @include tablet-mini{
+  &_dark {
+    color: #000;
+  }
+
+  &_light {
+    color: #fff;
+  }
+
+  &_uncap {
+    text-transform: none;
+  }
+
+  @include tablet-mini {
     font-size: 35px;
   }
 }

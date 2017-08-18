@@ -1,0 +1,33 @@
+.fitbus-screen-creators {
+  background-color: #242424;
+  border-bottom: 1px solid #777;
+  padding: 80px 0 90px;
+
+  .fitbus-title {
+    margin-bottom: 15px;
+  }
+  .fitbus-text {
+    margin: 0 auto 30px;
+    max-width: 380px;
+    width: 100%;
+  }
+
+  &__buttons {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    .fitbus-btn {
+      &:first-child {
+        margin-right: 75px;
+        @include tablet-mini {
+          margin-right: auto;
+        }
+      }
+
+      @include tablet-mini {
+        display: block;
+        margin: 0 auto 20px;
+      }
+    }
+  }
+}

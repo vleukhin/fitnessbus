@@ -1,0 +1,21 @@
+.fitbus-coach {
+
+  overflow: hidden;
+
+  &__image {
+    width: 65px;
+    height: 65px;
+    border-radius: 33px;
+    float: left;
+    margin-right: 15px;
+  }
+
+  &__name {
+    font-size: 16px;
+    font-family: Roboto, serif;
+    color: #333;
+    text-decoration: none;
+    line-height: 65px;
+    float: left;
+  }
+}

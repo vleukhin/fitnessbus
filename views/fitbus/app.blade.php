@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ЖИР0BUS</title>
     <script src="/build/app.bundle.js"></script>
     <link rel="stylesheet" href="/build/app.bundle.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,500,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 <!-- Yandex.Metrika counter -->

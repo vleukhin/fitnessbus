@@ -1,7 +1,7 @@
 {{--Created by Viktor Leukhin--}}
 {{--Tel: +7-926-797-5419--}}
 {{--E-mail: vleukhin@ya.ru--}}
-<div class="fitbus-social">
+<div class="fitbus-social @if(!empty($modifier)) fitbus-social_{{ $modifier }} @endif">
     <a href="https://www.facebook.com/GO2fitMoscow" target="_blank" class="fitbus-social__link">
         <div class="fitbus-social__item">
             <i class="fa fa-facebook"></i>

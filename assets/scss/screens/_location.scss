@@ -1,0 +1,25 @@
+.fitbus-screen-location {
+  background-image: url('/images/screens/location.png');
+  background-position: center 0;
+  padding: 75px 0 60px;
+
+  @include tablet-mini{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: cover;
+
+  }
+
+  .fitbus-text {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  &__icon {
+    width: 66px;
+    height: 86px;
+    background-image: url('/images/location.png');
+    margin: 60px auto 0;
+  }
+}

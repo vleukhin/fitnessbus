@@ -1,5 +1,13 @@
 .fitbus-social {
+  $block: &;
+
   overflow: hidden;
+
+  &_red {
+    #{$block}__item {
+      color: #dc2347;
+    }
+  }
 
   &__link {
     float: left;

@@ -1,0 +1,65 @@
+.fitbus-screen-steps {
+  background-color: #fff;
+  text-align: center;
+  padding: 70px 0 0;
+
+  .fitbus-step {
+    display: inline-block;
+    margin: 0 4vw;
+    margin-bottom: 40px;
+
+    @include phone {
+      display: block;
+    }
+  }
+
+  .fitbus-title {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 650px;
+    margin-bottom: 65px;
+  }
+
+  &__social {
+    @include gradient(#ee6a1b, #d4015c, left, right);
+    text-align: center;
+    height: 90px;
+    margin-top: 60px;
+
+    @include phone {
+      height: auto;
+      padding-bottom: 25px;
+    }
+
+    .fitbus-text, .fitbus-social {
+      display: inline-block;
+      line-height: 90px;
+
+      @include phone {
+        display: block;
+        width: 230px;
+        line-height: 60px;
+      }
+    }
+
+    .fitbus-text {
+      margin-right: 40px;
+      @include phone {
+        margin: 0 auto;
+
+      }
+    }
+
+    .fitbus-social {
+      vertical-align: middle;
+
+      @include phone {
+        margin: 0 auto;
+
+        .fitbus-social__link:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

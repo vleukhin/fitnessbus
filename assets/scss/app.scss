@@ -1,11 +1,33 @@
 @import "inc/vars";
 @import "inc/adaptive-mixins";
 @import "inc/mixins";
+@import "inc/fonts";
+/**
+ * Partials
+ */
 @import "partials/title";
-@import "blocks/placeholder";
+@import "partials/subtitle";
+@import "partials/text";
+@import "partials/button";
+/**
+ * Blocks
+ */
 @import "blocks/social";
 @import "blocks/logo";
 @import "blocks/contact";
+@import "blocks/logos";
+@import "blocks/coach";
+@import "blocks/step";
+/**
+ * Screens
+ */
+@import "screens/intro";
+@import "screens/placeholder";
+@import "screens/trainers";
+@import "screens/steps";
+@import "screens/location";
+@import "screens/stream";
+@import "screens/creators";
 
 html, body {
   background: #000;
@@ -18,25 +40,63 @@ html, body {
   height: 100%;
 }
 
-// Custom fonts
-@font-face {
-  font-family: 'Phenomena';
-  src: url('/fonts/phenomena-bold-webfont.woff2') format('woff2'),
-  url('/fonts/phenomena-bold-webfont.woff') format('woff'),
-  url('/fonts/phenomena-bold-webfont.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Phenomena';
-  src: url('/fonts/phenomena-extrabold-webfont.woff2') format('woff2'),
-  url('/fonts/phenomena-extrabold-webfont.woff') format('woff'),
-  url('/fonts/phenomena-extrabold-webfont.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
 a:active {
   color: inherit;
+}
+
+.fitbus-footer {
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  background-color: #242424;
+  color: #6c6c6c;
+  font-size: 14px;
+  text-align: center;
+  padding: 65px 20px;
+
+  @include phone{
+    padding: 30px 10px;
+  }
+
+  &__content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    @include phone {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__text {
+    @include phone {
+      margin: 5px auto;
+    }
+  }
+
+  &__g2f {
+    order: 2;
+
+    @include phone {
+      order: 0;
+    }
+  }
+
+  .fitnessbus-logo {
+
+    @include phone {
+      margin: 5px auto;
+    }
+  }
+
+  .go2fit-logo {
+    width: 80px;
+    height: 37px;
+    @include phone {
+      margin: 5px auto;
+    }
+  }
 }

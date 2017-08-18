@@ -1,0 +1,83 @@
+.fitbus-screen-trainers {
+  background-image: url('/images/screens/trainers.png');
+  background-position: center 0;
+  padding: 135px 0 75px;
+
+  @include tablet-mini {
+    background-size: cover;
+    background-image: url('/images/screens/trainers_mobile.png');
+    padding: 40px 10px;
+  }
+
+  @include phone {
+    padding: 65px 8px 55px;
+  }
+
+  .fitbus-title {
+    margin-bottom: 10px;
+  }
+
+  &__content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 650px;
+  }
+
+  &__counters {
+    font-family: Roboto, sans-serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+
+    span {
+      font-size: 28px
+    }
+
+    i {
+      font-style: normal;
+      font-weight: 700;
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+
+  &__coaches {
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0 30px;
+
+    @include tablet-mini{
+      margin: 20px 0 ;
+    }
+
+    .fitbus-coach {
+      display: inline-block;
+      margin-right: 90px;
+
+      @include tablet-mini {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+
+        &:first-child{
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  &__text {
+    &_first {
+      margin: 0 auto;
+      max-width: 470px;
+    }
+  }
+
+  &__logo {
+    margin: 30px auto 0;
+    display: block;
+  }
+}

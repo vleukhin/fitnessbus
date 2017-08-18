@@ -73,8 +73,9 @@
     left: 49%;
 
     @include phone {
-      bottom: 20px;
-      left: 47%;
+      bottom: auto;
+      left: auto;
+      position: relative;
     }
   }
 }

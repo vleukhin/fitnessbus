@@ -43,3 +43,60 @@ html, body {
 a:active {
   color: inherit;
 }
+
+.fitbus-footer {
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  background-color: #242424;
+  color: #6c6c6c;
+  font-size: 14px;
+  text-align: center;
+  padding: 65px 20px;
+
+  @include phone{
+    padding: 30px 10px;
+  }
+
+  &__content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    @include phone {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__text {
+    @include phone {
+      margin: 5px auto;
+    }
+  }
+
+  &__g2f {
+    order: 2;
+
+    @include phone {
+      order: 0;
+    }
+  }
+
+  .fitnessbus-logo {
+
+    @include phone {
+      margin: 5px auto;
+    }
+  }
+
+  .go2fit-logo {
+    width: 80px;
+    height: 37px;
+    @include phone {
+      margin: 5px auto;
+    }
+  }
+}

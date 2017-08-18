@@ -10,4 +10,5 @@
     @include('fitbus.screens.location')
     @include('fitbus.screens.stream')
     @include('fitbus.screens.creators')
+    @include('fitbus.inc.footer')
 @endsection

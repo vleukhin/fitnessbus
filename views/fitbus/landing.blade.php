@@ -7,7 +7,7 @@
     @include('fitbus.screens.intro')
     @include('fitbus.screens.trainers')
     @include('fitbus.screens.steps')
-    {{--<div class="fitbus-title fitbus-title_uncap">Три дня на ВДНХ</div>--}}
+    @include('fitbus.screens.location')
 
     {{--<div class="fitbus-subtitle">Автобус, сжигающий калории</div>--}}
 

@@ -1,7 +1,7 @@
 .fitbus-screen-steps {
   background-color: #fff;
   text-align: center;
-  padding: 70px 0 60px;
+  padding: 70px 0 0;
 
   .fitbus-step {
     display: inline-block;
@@ -24,6 +24,7 @@
     @include gradient(#ee6a1b, #d4015c, left, right);
     text-align: center;
     height: 90px;
+    margin-top: 60px;
 
     @include phone {
       height: auto;

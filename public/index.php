@@ -81,6 +81,7 @@
                     <img class="fitbus-logos__item" src="/images/logos/mtv.png" alt="">
                     <img class="fitbus-logos__item" src="/images/logos/jv.png" alt="">
                     <img class="fitbus-logos__item" src="/images/logos/iportion.png" alt="">
+                    <img class="fitbus-logos__item fitbus-logos__item_big" src="/images/logos/vklibe.png" alt="">
                     <img class="fitbus-logos__item" src="/images/logos/at.png" alt="">
                 </div>    </div>
 

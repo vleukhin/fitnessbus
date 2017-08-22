@@ -1,5 +1,9 @@
 .fitbus-logos {
   &__item {
     margin: 22px;
+
+    &_big{
+      max-height: 35px;
+    }
   }
 }
